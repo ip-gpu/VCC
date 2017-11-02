@@ -35,7 +35,7 @@ This file is part of VCC (Virtual Color Computer).
 #define COLORBURST (double)3579545 
 #define AUDIOBUFFERS 12
 //Misc
-#define MAX_LOADSTRING 100
+#define MAX_LOADSTRING 260
 #define QUERY 255
 #define INDEXTIME ((LINESPERSCREEN * TARGETFRAMERATE)/5)
 
