@@ -443,8 +443,7 @@ LRESULT CALLBACK Config(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 				if ( LOWORD(wParam) == INSERTBTN[Temp] )
 				{
 					LoadCartDLL(Temp,ModulePaths[Temp]);
-					for (Temp=0;Temp<4;Temp++)
-						SendDlgItemMessage(hDlg,EDITBOXS[Temp],WM_SETTEXT,strlen(SlotLabel[Temp]),(LPARAM)(LPCSTR)SlotLabel[Temp] );
+					SendDlgItemMessage(hDlg,EDITBOXS[Temp],WM_SETTEXT,strlen(SlotLabel[Temp]),(LPARAM)(LPCSTR)SlotLabel[Temp] );
 				}
 			}
 
